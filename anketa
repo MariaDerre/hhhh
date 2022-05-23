@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <span class="11"></span>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Общая информация</legend>
+            <label for="sername">Фамилия</label>
+            <input type="text" placeholder="" id="sername"> 
+            <p><label for="name">Имя</label>
+            <input type="text" placeholder="" id="name"></p>
+            <label for="fathername">Отчество</label>
+            <input type="text" placeholder="" id="fathername">   
+            <p><label for="email">Почта</label>
+              <input type="email" placeholder="@yandex.com" id="email"></p>
+        </fieldset>
+        <fieldset>
+            <legend>Пол</legend>
+            <p><input name="gender" type="radio" value="Мужской">М
+          <input name="gender" type="radio" value="Женский">Ж
+          </p>
+        </fieldset>
+        <fieldset>
+            <legend>Название услуги</legend>
+            <p>
+              <input type="text" placeholder="" id="spa">
+            </p>
+        </fieldset>
+        <button><a>Отправить</a></button>
+        <button><a>Очистить</a></button>         
+   </form>    
+</body>
+</html>
